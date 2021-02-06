@@ -1,6 +1,39 @@
 @use 'base';
-@use 'header';
-@use 'colorscheme';
-@use 'fontscheme';
 
+/* mixin formatting example below */
+/* @mixin sizing($property) {
+    padding: $property;
+    border-radius: $property;
+    margin: $property;
+} */
+html,
+body {
+    margin: 0;
+    padding: 0;
 
+    height: 100%;
+    width: 100%;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: base.$basicpadding;
+}
+
+.resume {
+    height: 100%;
+    /* @extend %gencontainer; */
+    @extend %flexboxnav;
+
+    .contactinfo {
+        /* margin: base.$navpadding; */
+        height: 100%;
+        background-color: white;
+        
+        .contactpiece {
+            margin: 10px 0;
+        
+        }
+    }
+}

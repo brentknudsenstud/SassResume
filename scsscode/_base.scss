@@ -1,8 +1,10 @@
-
-
 $large: 1100px;
 $med: 800px;
 $small: 600px;
+
+button {
+    height: 30px;
+}
 
 
 
@@ -16,5 +18,10 @@ $titlecolor: #613f75;
 $anchorcolor: #ef798a;
 $textcolor: #7d82b8;
 $basicfontsize: 1em;
-
-$backcolor: #e5c3d1;
+$titlesize: 25px;
+$backcolor: linear-gradient(135deg, rgba(255,175,75,1) 79%,rgba(255,146,10,1) 100%);
+$basicmargin: 15px 10% 10px 10%;
+$basicpadding: 15px;
+$contactpadding: 0 30px;
+$gentextfamily: Arial, Helvetica, sans-serif;
+$bradius: 12px;
