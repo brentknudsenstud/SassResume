@@ -2,22 +2,12 @@ $large: 1100px;
 $med: 800px;
 $small: 600px;
 
-%gencontainer {
-    padding: 10px;
-    background-color: #f7a9a8;
-}
 
 %flexboxresume {
     display: flex;
     text-align: left;
     justify-content: space-evenly;
 }
-
-
-
-
-
-
 
 $resumecolor: #025680;
 $hovercolor: #0687c7;

@@ -84,7 +84,7 @@
     }
     p {
         font-size: base.$parafontsize;
-        font-family: base.$resumebodyfont;
+        font-family: base.$parafontstyle;
     }
     h3 {
         border-bottom: base.$subheadingborder;
@@ -92,7 +92,7 @@
     }
 }
 
-.education ul, .social ul, .experience ul {
+.education ul li, .social ul li, .experience ul li, .skillsets ul li {
     color: base.$bodycolor;
     font-family: base.$parafontstyle;
 }
@@ -101,8 +101,11 @@
     font-family: base.$parafontstyle;
     font-size: base.$parafontsize;
     text-decoration: base.$no-underline;
+    color: base.$bodycolor;
    
 }
+
+
 
 .social ul li a:hover {
     color: base.$hovercolor;
