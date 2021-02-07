@@ -92,7 +92,7 @@
     }
 }
 
-.education li, .social li, .experience li {
+.education ul, .social ul, .experience ul {
     color: base.$bodycolor;
     font-family: base.$parafontstyle;
 }
@@ -106,10 +106,4 @@
 
 .social ul li a:hover {
     color: rgba(252,191,73,1);
-}
-
-
-.regfont {
-    font-family: base.$parafontstyle;
-    font-size: base.$parafontsize;
 }
