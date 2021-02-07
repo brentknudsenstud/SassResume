@@ -1,3 +1,102 @@
+.resume {
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+}
 
+/* mixin formatting example below */
+/* @mixin sizing($property) {
+    padding: $property;
+    border-radius: $property;
+    margin: $property;
+} */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fcbf49 51%, #f77f00 100%);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto Slab", serif;
+  color: #003049;
+  font-size: 1.5vw;
+}
+
+.resume {
+  height: 100%;
+  margin: 0 5%;
+  background: #025680;
+  box-shadow: 1px 5px 50px -13px rgba(5, 5, 5, 0.65);
+}
+.resume .contactinfo {
+  /* margin: base.$navpadding; */
+  background: linear-gradient(135deg, #fcbf49 51%, #f77f00 100%);
+  padding: 15px;
+  box-shadow: 1px 5px 50px -13px rgba(5, 5, 5, 0.65);
+  width: 30%;
+}
+.resume .contactinfo .contactpiece {
+  margin: 10px 0;
+  color: #003049;
+  font-size: 1.5vw;
+}
+.resume .contactinfo .contactpiece a {
+  text-decoration: none;
+  color: #003049;
+}
+.resume .contactinfo .contactpiece a:hover {
+  color: #d62828;
+}
+.resume .contactinfo button {
+  border: 2px solid #003049;
+  border-radius: 12px;
+  background-color: #003049;
+  color: #EAE2B7;
+}
+
+.resume-body {
+  font-family: "Lora", serif;
+  padding: 15px;
+  color: #EAE2B7;
+  width: 70%;
+  min-width: 100px;
+}
+.resume-body .name {
+  padding: 10px;
+  background-color: #026fa6;
+  border-bottom: 1px ridge #eae2b7;
+}
+.resume-body .position {
+  padding: 10px;
+  border-bottom: 7px dotted #eae2b7;
+  background-color: #0687c7;
+}
+.resume-body .profile, .resume-body .education, .resume-body .social, .resume-body .experience, .resume-body .skillsets {
+  margin: 0 5%;
+}
+.resume-body p {
+  font-size: 1.5vw;
+  font-family: "Roboto", sans-serif;
+}
+.resume-body h3 {
+  border-bottom: 2px groove #eae2b7;
+  padding-bottom: 5px;
+}
+
+li a {
+  color: #EAE2B7;
+  font-family: "Roboto", sans-serif;
+}
+
+.social ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d62828;
+}
 
 /*# sourceMappingURL=style.css.map */

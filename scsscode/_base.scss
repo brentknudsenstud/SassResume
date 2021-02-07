@@ -2,11 +2,16 @@ $large: 1100px;
 $med: 800px;
 $small: 600px;
 
-button {
-    height: 30px;
+%gencontainer {
+    padding: 10px;
+    background-color: #f7a9a8;
 }
 
-
+%flexboxresume {
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+}
 
 
 
@@ -17,11 +22,22 @@ button {
 $titlecolor: #613f75;
 $anchorcolor: #ef798a;
 $textcolor: #7d82b8;
-$basicfontsize: 1em;
+$resumecolor: #025680;
+$hovercolor: #d62828;
+$basicfontsize: 1.5vw;
+$basicfontstyle: 'Roboto Slab', serif;
+$resumebodyfont: 'Lora', serif;
+$basicboxshadow: 1px 5px 50px -13px rgba(5,5,5,0.65);
 $titlesize: 25px;
-$backcolor: linear-gradient(135deg, rgba(255,175,75,1) 79%,rgba(255,146,10,1) 100%);
-$basicmargin: 15px 10% 10px 10%;
+$bodycolor: #EAE2B7;
+$backcolor: linear-gradient(135deg, rgba(252,191,73,1) 51%,rgba(247,127,0,1) 100%);
+$basicmargin: 0 5%;
 $basicpadding: 15px;
 $contactpadding: 0 30px;
-$gentextfamily: Arial, Helvetica, sans-serif;
 $bradius: 12px;
+$buttonstyle: 2px solid #003049;
+$buttoncolor: #003049;
+$parafontsize: 1.5vw;
+$parafontstyle: 'Roboto', sans-serif;
+$no-underline: none;
+$subheadingborder: 2px groove #eae2b7;
