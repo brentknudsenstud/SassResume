@@ -84,7 +84,7 @@
     }
     p {
         font-size: base.$parafontsize;
-        font-family: base.$parafontstyle;
+        font-family: base.$resumebodyfont;
     }
     h3 {
         border-bottom: base.$subheadingborder;
@@ -92,7 +92,7 @@
     }
 }
 
-li a {
+.education li, .social li, .experience li {
     color: base.$bodycolor;
     font-family: base.$parafontstyle;
 }
@@ -100,10 +100,16 @@ li a {
 .social ul li a {
     font-family: base.$parafontstyle;
     font-size: base.$parafontsize;
-    text-decoration: none;
+    text-decoration: base.$no-underline;
    
 }
 
-a:hover {
-    color: base.$hovercolor;
+.social ul li a:hover {
+    color: rgba(252,191,73,1);
+}
+
+
+.regfont {
+    font-family: base.$parafontstyle;
+    font-size: base.$parafontsize;
 }
